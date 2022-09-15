@@ -56,14 +56,22 @@ header, section, footer{
 
     h2{
         text-align: center;
+        padding: 10px;
     }
 
     .grid-caja{
         display: grid;
         grid-template-columns: auto auto;
-        margin: 15px;
+        margin: 25px;
         justify-content: stretch;
+        padding: 20px;
+
     }
+
+    .img-c{
+        padding: 20px;
+        justify-content: stretch;
+      
     #imgmm{
         width: 400px;
         height: 400px;
@@ -89,7 +97,7 @@ header, section, footer{
      #caja1{
          font-size: large;
          margin-top: 20px;
-    }
+     }
 
     #video{
         margin:0;
