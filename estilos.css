@@ -88,17 +88,18 @@ header, section, footer{
     }
      #caja1{
          font-size: large;
-         
+         margin-top: 20px;
     }
+
     #video{
-        margin: auto;
+        margin:0;
         
     }
 
      /*inicio responsive*/
 
 
-     @media screen and (min-whith 768px) {
+     @media screen and (min-width 768px) {
          .boton{
             display: flex;
             flex-direction: column;
