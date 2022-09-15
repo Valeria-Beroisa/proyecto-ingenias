@@ -11,6 +11,11 @@ header, section, footer{
    
      }
     
+     .{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+     }
     .boton{
         
         background-color:#092327;
@@ -52,16 +57,20 @@ header, section, footer{
     h2{
         text-align: center;
     }
+
+    .grid-caja{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 15px;
+        justify-content: stretch;
+    }
     #imgmm{
         width: 400px;
         height: 400px;
-        margin: 30px;
+        margin: 10px;
     }
     #txt{
-        width: 450px;
-        height: 300px;
         position: relative;
-        background-color: aliceblue;
         text-align: left;
     }
 
@@ -81,18 +90,11 @@ header, section, footer{
          font-size: large;
          
     }
-   
+    #video{
+        margin: auto;
+        
+    }
 
-     .img2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-     } 
-
-    
-     
-     
      /*inicio responsive*/
 
 
@@ -129,13 +131,12 @@ header, section, footer{
         
     }
     #subscripcion{
-        
+        width: 50%;
         height: 50px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    
-        }
+    }
     
     .redes{
         
