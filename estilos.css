@@ -5,17 +5,13 @@ header, section, footer{
     }
     
     header{
-        background: url(img/mujeres.jpg);
+        background: blanchedalmond;
         background-repeat: no-repeat;
         height: 300px;
    
      }
     
-     .{
-        margin: 0;
-        padding: 0;
-        box-sizing:border-box;
-     }
+    
     .boton{
         
         background-color:#092327;
@@ -50,8 +46,15 @@ header, section, footer{
     
     
     h1{
+        font-family: 'Mukta', sans-serif;
         text-align: center;
-        font-size: x-large;
+        font-size: xx-large;
+        color:transparent;
+        letter-spacing:2px;
+        background-image: linear-gradient(#ffe993, #eb831c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        
     }
 
     h2{
@@ -92,7 +95,8 @@ header, section, footer{
     .nosotros{
         display: flex;
         flex-wrap: wrap;
-        padding: 30px;
+        padding:0;
+        padding: 0;
     }
      #caja1{
          font-size: large;
@@ -135,10 +139,10 @@ header, section, footer{
 
     /*inicio de footer*/
     footer{
-        padding: 30px;
-    
-        
+        padding: 0;
+        margin: 0;
     }
+
     #subscripcion{
         width: 50%;
         height: 50px;
@@ -148,7 +152,6 @@ header, section, footer{
     }
     
     .redes{
-        
         height: 150px;
        
     }
