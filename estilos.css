@@ -1,50 +1,20 @@
 header, section, footer{
+    background-color:coral;
+    margin-left: 20px;
+    margin-right: 20px;
     
-    height: auto;
-    background-color:coral
+    
     }
     
     header{
         background: blanchedalmond;
-        background-repeat: no-repeat;
-        height: 300px;
-   
+        height: 250px;
+       
      }
-    
-    
-    .boton{
-        
-        background-color:#092327;
-        list-style: none;
-        text-align:center;
-        padding:0px;
-        font-size: 1.2rem;
-        margin-top: 200px;
-        width: 100%;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .boton li a{
-        text-decoration: none;
-        color: white;
-        padding: 20px;
-        display: block;
-    }
-    
-    .boton ul li{
-        display: inline-block;
-        text-align: center;
-        
-    
-    }
-    .boton li a:hover{
-        background: blue;
-    }
-    
-    
-    
+     * {
+        margin:0;
+        padding:0;
+     }
     h1{
         font-family: 'Mukta', sans-serif;
         text-align: center;
@@ -54,37 +24,43 @@ header, section, footer{
         background-image: linear-gradient(#ffe993, #eb831c);
         background-clip: text;
         -webkit-background-clip: text;
+        padding-top: 20px;
         
     }
-
+     
+     
     h2{
         text-align: center;
         padding: 10px;
+        letter-spacing: 2px;
+    }
+    h3{
+        margin: 30px;
     }
 
     .grid-caja{
         display: grid;
-        grid-template-columns: auto auto;
-        margin: 25px;
+        grid-template-columns: 40% auto;
         justify-content: stretch;
         padding: 20px;
 
+
+    }
+    .caja{
+        margin: 20px;
+        text-align: center;
     }
 
     .img-c{
         padding: 20px;
         justify-content: stretch;
-      
-    #imgmm{
-        width: 400px;
-        height: 400px;
-        margin: 10px;
-    }
-    #txt{
-        position: relative;
-        text-align: left;
+        
     }
 
+      
+    
+
+ 
     #intro{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: xx-large;
@@ -92,12 +68,7 @@ header, section, footer{
         font-weight: bold;
     }
 
-    .nosotros{
-        display: flex;
-        flex-wrap: wrap;
-        padding:0;
-        padding: 0;
-    }
+  
      #caja1{
          font-size: large;
          margin-top: 20px;
@@ -107,7 +78,18 @@ header, section, footer{
         margin:0;
         
     }
-
+     footer{
+        height: 150px;
+     }
+     .redes{
+        text-align: center;
+        letter-spacing: 20px;
+        color: blanchedalmond;
+        background-color: rgb(22, 20, 20);
+        height: 150px;
+        padding-top: 40px;
+     }
+    
      /*inicio responsive*/
 
 
@@ -138,46 +120,8 @@ header, section, footer{
    /*fin css pagina2*/
 
     /*inicio de footer*/
-    footer{
-        padding: 0;
-        margin: 0;
-    }
-
-    #subscripcion{
-        width: 50%;
-        height: 50px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  
     
-    .redes{
-        height: 150px;
-       
-    }
-    #iconos{
-        height: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        text-align: center;
+   
+   
     
-    }
-    #iconos ul li{
-        list-style-type: none;
-        display: inline-block;
-    }
-    #iconos img{
-        margin: 20px;
-        
-        
-    }
-    img{
-        margin-top: 10px;
-        
-    }
-    
-    h3{
-        text-align: center;
-        letter-spacing: 5px;
-    }
