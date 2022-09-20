@@ -1,137 +1,147 @@
-header, section, footer{
-    background-color:coral;
-   
-    
+header,
+section,
+footer {
+    background-color: coral;
+
+
+}
+
+header {
+    background: blanchedalmond;
+    height: 250px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: transparent;
+    letter-spacing: 2px;
+    background-image: linear-gradient(#ffe993, #eb831c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-top: 20px;
+
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    margin: 30px;
+    text-align: center;
+}
+
+.grid-caja {
+    display: grid;
+    grid-template-columns: 40% auto;
+    justify-content: stretch;
+    padding: 20px;
+
+
+}
+
+.caja {
+    margin: 20px;
+    text-align: center;
+}
+
+.img-c {
+    padding: 20px;
+    justify-content: stretch;
+
+}
+
+
+
+
+
+#intro {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#caja1 {
+    font-size: large;
+    margin-top: 20px;
+}
+
+#video {
+    margin: 0;
+
+}
+
+footer {
+    height: 150px;
+}
+
+.redes {
+    text-align: center;
+    letter-spacing: 20px;
+    color: blanchedalmond;
+    background-color: rgb(22, 20, 20);
+    height: 150px;
+    padding-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    padding: 30px;
+
+}
+
+.iconos {
+    text-align: center;
+}
+
+@media (hover :hover) {
+    #iconos:hover {
+        transform: scale(2.2);
     }
-    
-    header{
-        background: blanchedalmond;
-        height: 250px;
-       
-     }
-     * {
-        margin:0;
-        padding:0;
-     }
-    h1{
-        font-family: 'Mukta', sans-serif;
-        text-align: center;
-        font-size: xx-large;
-        color:transparent;
-        letter-spacing:2px;
-        background-image: linear-gradient(#ffe993, #eb831c);
-        background-clip: text;
-        -webkit-background-clip: text;
-        padding-top: 20px;
-        
-    }
-     
-     
-    h2{
-        text-align: center;
-        padding: 10px;
-        letter-spacing: 2px;
-    }
-    h3{
-        margin: 30px;
-        text-align: center;
+}
+
+/*inicio responsive*/
+
+
+@media screen and (min-width 768px) {
+    .boton {
+        display: flex;
+        flex-direction: column;
     }
 
-    .grid-caja{
-        display: grid;
-        grid-template-columns: 40% auto;
-        justify-content: stretch;
-        padding: 20px;
 
 
-    }
-    .caja{
-        margin: 20px;
-        text-align: center;
-    }
+}
 
-    .img-c{
-        padding: 20px;
-        justify-content: stretch;
-        
-    }
+/*fin responsive*/
 
-      
-    
+/*inicio css pagina 2 */
 
- 
-    #intro{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: xx-large;
-        text-align: center;
-        font-weight: bold;
-    }
+#video {
+    padding: 15px;
+}
 
-  
-     #caja1{
-         font-size: large;
-         margin-top: 20px;
-     }
-
-    #video{
-        margin:0;
-        
-    }
-     footer{
-        height: 150px;
-     }
-     .redes{
-        text-align: center;
-        letter-spacing: 20px;
-        color: blanchedalmond;
-        background-color: rgb(22, 20, 20);
-        height: 150px;
-        padding-top: 40px;
-     }
-      .grid{
-        display: grid;
-        grid-template-columns: auto auto auto ;
-        margin: 10px;
-        padding: 30px;
-         
-      }
-
-      .iconos{
-      text-align: center;
-      }
-    
-     /*inicio responsive*/
+p {
+    text-align: left;
+    font-size: large;
+}
 
 
-     @media screen and (min-width 768px) {
-         .boton{
-            display: flex;
-            flex-direction: column;
-         }
+/*fin css pagina2*/
 
-
-        
-      } 
-      /*fin responsive*/
-
-    /*inicio css pagina 2 */
-
-    #video{
-        padding: 15px;
-     }
-
-    p{
-        text-align:left;
-        font-size: large;
-    }
-    
-
-  
-   /*fin css pagina2*/
-
-    /*inicio de footer*/
-  
-    
-   
-   
-    
+/*inicio de footer*/
