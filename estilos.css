@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -78,37 +79,20 @@ header, section, footer{
     h3{
         margin: 30px;
         text-align: center;
-    }
-
-    .grid-caja{
-        display: grid;
-        grid-template-columns: 40% auto;
-        justify-content: stretch;
-        padding: 20px;
+}
 
 
-    }
-    .caja{
-        margin: 20px;
-        text-align: center;
-    }
 
-    .img-c{
-        padding: 20px;
-        justify-content: stretch;
-        
-    }
 
-      
-    
 
- 
-    #intro{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: xx-large;
-        text-align: center;
-        font-weight: bold;
-    }
+/*fin responsive*/
+
+/*inicio css pagina 2 */
+
+#video {
+    padding: 15px;
+}
+
 
   
      #caja1{
@@ -200,3 +184,6 @@ header, section, footer{
    
    
     
+
+
+
