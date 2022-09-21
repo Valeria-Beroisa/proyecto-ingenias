@@ -7,10 +7,7 @@
 
 header, section, footer{
     background-color:#f1a261;
-   margin: 0;
-   padding: 0;
-    
-    }
+  }
     
     header{
         background:radial-gradient(circle farthest-corner at center center, #df8950 49%, #342e23 100%);
@@ -81,29 +78,37 @@ header, section, footer{
         text-align: center;
 }
 
-
-
-
-
-/*fin responsive*/
-
-/*inicio css pagina 2 */
-
-#video {
-    padding: 15px;
+.grid-caja {
+    display: grid;
+    grid-template-columns: 40% auto;
+    justify-content: stretch;
+    padding: 20px;
 }
 
+.caja {
+    margin: 20px;
+    text-align: center;
+}
 
-  
-     #caja1{
+.img-c {
+    padding: 20px;
+    justify-content: stretch;
+
+}
+
+#intro {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+#caja1{
          font-size: large;
          margin-top: 20px;
      }
 
-    #video{
-        margin:0;
-        
-    }
+    
      footer{
         height: 150px;
      }
@@ -147,25 +152,15 @@ header, section, footer{
             font-size: 35px;
             color: #36A0FF;
         }
-     
+      /*fin form boostrap*/
         
         .contacto{
             text-align: center;
             
         }
-     /*inicio responsive*/
-
-
-   
-
-
-        
-      
-      /*fin responsive*/
-
-    /*inicio css pagina 2 */
-
-    #video{
+    
+    
+     #video{
         padding: 15px;
      }
 
