@@ -172,15 +172,11 @@ header, section, footer{
      /*inicio responsive*/
 
 
-     @media screen and (min-width 768px) {
-         .boton{
-            display: flex;
-            flex-direction: column;
-         }
+   
 
 
         
-      } 
+      
       /*fin responsive*/
 
     /*inicio css pagina 2 */
