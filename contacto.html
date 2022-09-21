@@ -21,7 +21,7 @@
        <!--inicio nav bootstrap-->
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="img/sororidad.webp" alt="mujeres" width="150px">
         </a>
         
@@ -34,7 +34,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Quiénes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="desarrollo.html">Desarrollo</a>
+              <a class="nav-link active" aria-current="page" href="desarrollo.html">Sobre Migración</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="investigaciones.html">Relatos</a>
@@ -54,21 +54,69 @@
     <h1>ONG Marcelina Menerces</h1>
     </header>
 <section>
-  <p>Este espacio es para brindar información a quienes 
-    lo necesiten, no se solicitan datos personales. Asique no tengas miedo o dudas al contactarte</p>
-    <form action=""></form>
-    <div id="subscripcion">
-      <label for="email">
-        <h4>Quiero saber sobre las proximas actividades:</h4>
-      </label>
-      <br>
-      <input type="nombre" placeholder="Nombre">
-      <br>
-      <input type="email" placeholder="Correo Electronico" required>
-      <br>
-      <textarea name="comentario" placeholder="Escriba su comentario" id="" cols="30" rows="5"></textarea>
-      <br>
-      <input type="submit" name="" class="">
+  <div class="contacto">
+  <h3>Participe</h3>
+  <h5>Usted puede respaldar la igualdad de género y el empoderamiento de las mujeres migrantes en Argentina participando de diversas maneras.</h5>
+  <h6>Este espacio es para brindar información a quienes 
+    lo necesiten, sus datos personales no son obligatorios.No tengas miedo o dudas al contactarte.
+  </h6>
+  <h6>Su opinión nos importa. Su accion lo hace realidad<h6>
+</div>
+  <!--formulario de boostrap-->
+  
+  <div class="col-md-12" >
+    <div class="well well-sm">
+        <form class="form-horizontal" method="post">
+            <fieldset>
+                <legend class="text-center header">Contáctenos</legend>
+
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i>Nombre</span>
+                    <div class="col-md-8">
+                        <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control" style="background-color: wheat;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i>Apellido</span>
+                    <div class="col-md-8">
+                        <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control" style="background-color: wheat;">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i>Correo Electrónico</span>
+                    <div class="col-md-8">
+                        <input id="email" name="email" type="text" placeholder="Correo Electrónico" class="form-control" style="background-color: wheat;">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i>Numero de contacto</span>
+                    <div class="col-md-8">
+                        <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control" style="background-color: wheat;">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i>Mensaje</span>
+                    <div class="col-md-8">
+                        <textarea class="form-control" id="message" name="message" placeholder="Deje su mensaje aqui" rows="7" style="background-color: wheat;"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+  <!--fin formulario bootstrap-->
   
 </section>
 <!--inicio footer-->
