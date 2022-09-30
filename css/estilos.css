@@ -132,6 +132,7 @@ header, section, footer{
       .iconos{
       text-align: center;
       width:100px;
+      
      }
 
       .iconos:hover{
@@ -141,8 +142,12 @@ header, section, footer{
         }
       
     
-        #iconos ul:hover{
+        #iconos ul li:hover{
             transform: scale(2.2);
+        }
+        
+        #iconos ul li{
+          display:inline-block;
         }
 
         /*form bootstrap*/
