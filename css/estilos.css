@@ -141,11 +141,6 @@ footer {
   
 }
 
-.iconos:hover {
-  width: 300px;
-  transition: width 0.5s linear 0s;
-  background-color: wheat;
-}
 
 #iconos ul li:hover {
   transform: scale(2.2);
