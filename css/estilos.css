@@ -188,12 +188,11 @@ p {
   .grid {
     display: block;
   }
+
+  .iconos{
+    display: flex;
+   align-items: center;
+   }
 }
 
-.iconos{
- display: flex;
-align-items: center;
 
-  
-  
-}
