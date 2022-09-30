@@ -111,7 +111,8 @@ header, section, footer{
     
      footer{
         height: 200px;
-     }
+        }
+        
      .redes{
         text-align: center;
         letter-spacing: 20px;
