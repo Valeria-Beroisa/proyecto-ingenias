@@ -10,5 +10,16 @@ function saludar() {
 saludar();
 
 
+ edad= prompt("ingrese su edad")
+
+ if (edad > 18){
+  console.log("es mayor de edad")
+ }
+else{
+  console.log ("Es menor de edad")
+}
+
+
+
  
 
