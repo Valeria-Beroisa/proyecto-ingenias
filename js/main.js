@@ -19,7 +19,18 @@ else{
   console.log ("Es menor de edad")
 }
 
+const fundacion={
+  nombre:"Marcelina Menerces",
+  anioFundacion:2009,
+  cantidadSocios:8,
+  fundador: "Carlos Gatica",
+  contactoEmail: {
+    mail:"fundacionmm@gmail.com",
+    telefono: 011445256,
+}
+}
 
+console.log(fundacion)
 
  
 

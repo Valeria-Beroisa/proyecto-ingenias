@@ -107,17 +107,13 @@ h3 {
   font-weight: bold;
   padding: 35px;
 }
-.principal{
+.principal {
   padding: 50px;
 }
 
 #caja1 {
   font-size: large;
   margin-top: 20px;
-}
-
-footer {
-  height: 200px;
 }
 
 .redes {
@@ -135,21 +131,17 @@ footer {
   padding: 70px;
 }
 
-.grid-1{
+.grid-1 {
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 10px;
   padding: 70px;
 }
 
-
-
 .iconos {
   text-align: center;
   width: 100px;
-  
 }
-
 
 #iconos ul li:hover {
   transform: scale(2.2);
@@ -157,6 +149,7 @@ footer {
 
 #iconos ul li {
   display: inline-block;
+  
 }
 
 /*form bootstrap*/
@@ -193,10 +186,8 @@ p {
     display: block;
   }
 
-  .iconos{
+  .iconos {
     display: flex;
-   align-items: center;
-   }
+    align-items: center;
+  }
 }
-
-
