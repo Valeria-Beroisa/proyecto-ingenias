@@ -45,8 +45,8 @@ console.log(fundacion1);
 console.log(fundacion2);
 console.log(Fundacion.length)
 fundacion1.hablar();
-console.log(nombreSocios)
-console.log(nombreSocios.length)
+console.log(nombreSocios);
+console.log(nombreSocios.length);
 nombreSocios.push('Ricardo Julian');
 
 
