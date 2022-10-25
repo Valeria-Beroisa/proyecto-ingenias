@@ -1,36 +1,40 @@
-alert("BIENVENID@S")
+alert("BIENVENID@S");
 
 function saludar() {
   let nombre = prompt("Ingrese su nombre");
-  console.log("hola desde al funcion saludar ():" + nombre);
-  alert("Gracias "+ nombre +" "+ " por visitarnos!!");
+  console.log("hola desde la funcion saludar ():" + nombre);
+  alert("Gracias " + nombre + " " + " por visitarnos!!");
 }
-
 
 saludar();
 
+edad = prompt("ingrese su edad");
 
- edad= prompt("ingrese su edad")
-
- if (edad > 18){
-  console.log("es mayor de edad")
- }
-else{
-  console.log ("Es menor de edad")
+if (edad > 18) {
+  console.log("es mayor de edad");
+} else {
+  console.log("Es menor de edad");
 }
 
-const fundacion={
-  nombre:"Marcelina Menerces",
-  anioFundacion:2009,
-  cantidadSocios:8,
-  fundador: "Carlos Gatica",
-  contactoEmail: {
-    mail:"fundacionmm@gmail.com",
-    telefono: 011445256,
-}
+function Fundacion(nombre, anioFundacion, cantidadSocios, fundador) {
+  this.nombre = nombre,
+  this.anioFundacion = anioFundacion,
+  this.cantidadSocios = cantidadSocios;
+  this.fundador = fundador;
 }
 
-console.log(fundacion)
+const fundacion1 = new Fundacion(
+  "Marcelina Menerces",
+  2009,
+  8,
+  "Carlos Gatica"
+);
+const fundacion2 = new Fundacion(
+  "Marcelina Menerces 2",
+  2019,
+  8,
+  "Carlos Gatica"
+);
 
- 
-
+console.log(fundacion1);
+console.log(fundacion2);
