@@ -21,20 +21,28 @@ function Fundacion(nombre, anioFundacion, cantidadSocios, fundador) {
   this.anioFundacion = anioFundacion,
   this.cantidadSocios = cantidadSocios;
   this.fundador = fundador;
+  this.hablar = function(){ 
+    console.log("Desde la Fundacion "+ this.nombre + "  esperamos ser de gran ayuda")}
+
 }
 
 const fundacion1 = new Fundacion(
   "Marcelina Menerces",
   2009,
-  8,
+  4,
   "Carlos Gatica"
 );
 const fundacion2 = new Fundacion(
   "Marcelina Menerces 2",
   2019,
-  8,
+  4,
   "Carlos Gatica"
 );
 
 console.log(fundacion1);
 console.log(fundacion2);
+console.log(Fundacion.length)
+fundacion1.hablar();
+
+
+
