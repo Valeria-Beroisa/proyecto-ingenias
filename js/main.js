@@ -63,3 +63,5 @@ document.getElementById("correo").value = "valee.beroisa@gmail.com";
 function graciasSaludo() {
   alert("Gracias por tu colaboracion!!");
 }
+const saludo = document.getElementById("clicksaludo");
+saludo.onclick = graciasSaludo;

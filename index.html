@@ -133,6 +133,23 @@
             se conmemora, en su honor, el Día de las Mujeres Migrantes, en el
             ámbito de la Ciudad de Buenos Aires.
           </p>
+          <p>
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Conoce a los Fundadores:
+            </button>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              </div>
+            </div>
+          </p>
         </div>
         <div class="caja">
           <img
@@ -189,14 +206,26 @@
       <div class="form-floating">
         <form action="" class="formulario">
           <h3>Quiero donar</h3>
-          <p>Tu nombre: <input id="nombre" type="text" name="nombre" placeholder="Nombre" /></p>
-          <p>Tu dirección de correo: <input id="correo"  type="text" name="correo" placeholder="Correo"/></p>
+          <p>
+            Tu nombre:
+            <input id="nombre" type="text" name="nombre" placeholder="Nombre" />
+          </p>
+          <p>
+            Tu dirección de correo:
+            <input id="correo" type="text" name="correo" placeholder="Correo" />
+          </p>
           <p>
             Tu mensaje:<br />
             <textarea name="mensaje" placeholder="Mensaje"></textarea>
           </p>
           <p>
-            <button onclick="graciasSaludo()" type="button" class="btn btn-dark">Enviar</button>
+            <button
+              id="clicksaludo"
+              type="button"
+              class="btn btn-dark"
+            >
+              Enviar
+            </button>
           </p>
         </form>
       </div>
