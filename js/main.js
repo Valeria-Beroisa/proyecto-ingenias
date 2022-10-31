@@ -1,4 +1,4 @@
-alert("BIENVENID@S");
+/*alert("BIENVENID@S");
 
 function saludar() {
   let nombre = prompt("Ingrese su nombre");
@@ -15,15 +15,18 @@ if (edad > 18) {
 } else {
   console.log("Es menor de edad");
 }
+*/
 
 function Fundacion(nombre, anioFundacion, cantidadSocios, fundador) {
-  this.nombre = nombre,
-  this.anioFundacion = anioFundacion,
-  this.cantidadSocios = cantidadSocios;
+  (this.nombre = nombre),
+    (this.anioFundacion = anioFundacion),
+    (this.cantidadSocios = cantidadSocios);
   this.fundador = fundador;
-  this.hablar = function(){ 
-    console.log("Desde la Fundacion "+ this.nombre + "  esperamos ser de gran ayuda")}
-
+  this.hablar = function () {
+    console.log(
+      "Desde la Fundacion " + this.nombre + "  esperamos ser de gran ayuda"
+    );
+  };
 }
 
 const fundacion1 = new Fundacion(
@@ -39,15 +42,24 @@ const fundacion2 = new Fundacion(
   "Carlos Gatica"
 );
 
-let nombreSocios=["Carlos Oyazun", "Maio Benavides", "Martin Rivas", "Jorge Benitez"]
+let nombreSocios = [
+  "Carlos Oyazun",
+  "Mario Benavides",
+  "Martin Rivas",
+  "Jorge Benitez",
+];
 
 console.log(fundacion1);
 console.log(fundacion2);
-console.log(Fundacion.length)
+console.log(Fundacion.length);
 fundacion1.hablar();
 console.log(nombreSocios);
 console.log(nombreSocios.length);
-nombreSocios.push('Ricardo Julian');
+nombreSocios.push("Ricardo Julian");
 
+document.getElementById("nombre").value = "Valeria Beroisa";
+document.getElementById("correo").value = "valee.beroisa@gmail.com";
 
-
+function graciasSaludo() {
+  alert("Gracias por tu colaboracion!!");
+}
