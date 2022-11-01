@@ -57,18 +57,26 @@ console.log(nombreSocios);
 console.log(nombreSocios.length);
 nombreSocios.push("Ricardo Julian");
 
-document.getElementById("nombre").value = "Valeria Beroisa";
-document.getElementById("correo").value = "valee.beroisa@gmail.com";
+const saludo = document.getElementById("clicksaludo");
+saludo.onclick = graciasSaludo;
 
 function graciasSaludo() {
   alert("Gracias por tu colaboracion!!");
 }
-const saludo = document.getElementById("clicksaludo");
-saludo.onclick = graciasSaludo;
 
 let btn = document.getElementById("btnPrincipal");
 btn.addEventListener("click", mostrarParrafo);
 function mostrarParrafo() {
   let parrafo = document.getElementById("mostrar");
   mostrar.style.display = "block";
+}
+
+let miFormulario = document.getElementById("formulario");
+miFormulario.addEventListener("submit", validarFormulario);
+
+function validarFormulario(event) {
+  event.preventDefault();
+  let formulario = event.target;
+  console.log(formulario.children[1].value);
+  console.log("Formulario enviado para validar");
 }
