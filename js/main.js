@@ -65,3 +65,10 @@ function graciasSaludo() {
 }
 const saludo = document.getElementById("clicksaludo");
 saludo.onclick = graciasSaludo;
+
+let btn = document.getElementById("btnPrincipal");
+btn.addEventListener("click", mostrarParrafo);
+function mostrarParrafo() {
+  let parrafo = document.getElementById("mostrar");
+  mostrar.style.display = "block";
+}
