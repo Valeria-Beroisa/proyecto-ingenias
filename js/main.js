@@ -80,3 +80,14 @@ function validarFormulario(event) {
   console.log(formulario.children[1].value);
   console.log("Formulario enviado para validar");
 }
+
+sessionStorage.setItem("socios", [
+  "Carlos Oyazun",
+  "Mario Benavides",
+  "Martin Rivas",
+  "Jorge Benitez",
+  "Carlos Gatica",
+]);
+
+let listaSocios = sessionStorage.getItem("socios").split(",");
+console.log(listaSocios);
