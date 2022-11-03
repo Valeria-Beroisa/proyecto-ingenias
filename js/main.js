@@ -91,3 +91,5 @@ sessionStorage.setItem("socios", [
 
 let listaSocios = sessionStorage.getItem("socios").split(",");
 console.log(listaSocios);
+
+localStorage.setItem("listaSocios", JSON.stringify(nombreSocios));
